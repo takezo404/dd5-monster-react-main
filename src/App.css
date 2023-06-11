@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.topInfos p {
+  margin-bottom: 0 !important;
+}
+
+/*
+STAT BLOCK
+*/
+.statblock {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 10px 20px;
+    box-sizing: border-box;
+    color: #282c34;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+  }
+
+.statblock h2 {
+  background: -webkit-linear-gradient(left, #743ad5, #d53a9d);
+  font-weight: 500;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+  .statblock .divider {
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #743ad5, #d53a9d);
+    opacity: 1 !important;
+  }
+
+  .statLabel {
+    background: -webkit-linear-gradient(left, #743ad5, #d53a9d);
+    font-weight: 800;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+  }
